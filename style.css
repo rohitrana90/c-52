@@ -1,0 +1,98 @@
+
+.menu{
+display:flex;
+justify-content: space-between;
+background-color: black;
+color: white;
+}
+
+.rohit p{
+  position: absolute; 
+  top:20%;
+left:10%;
+transform:translate(-10%,-10%);
+color: white;
+
+}
+
+ a.link {
+color:blue
+ }
+a.visited {
+    color:rgb(105, 202, 119)
+}
+
+
+
+
+
+body{
+    background-color:white;
+}
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    
+}
+
+.grid img{
+border:2px solid black;
+    border-radius:50px;
+}
+
+.origami{
+
+border-radius:20px;
+ background-color:white;
+
+width:310px;
+font-family:fantasy;
+
+}
+.origami{
+    position:relative;
+}
+ .origami p{
+     opacity:0;
+     position:absolute;
+     top:10%;
+     transform: translate(-50%,-50%);
+ }
+ .origami:hover p{
+     opacity:1;
+     color:rgb(255, 0, 76);
+ }
+ .origami:hover img{
+     opacity: 0.34;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
